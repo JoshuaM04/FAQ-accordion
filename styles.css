@@ -47,9 +47,6 @@ body {
 h2 {
     font-size: 1.0rem;
 }
-.star-sign {
-    border-style: clear;
-}
 .accordion-title {
     display: flex;
     justify-content: left;
@@ -57,10 +54,6 @@ h2 {
     border-style: clear;
     gap: 1rem;
     margin-bottom: 1rem;
-}
-.plus-sign {
-    justify-content: flex-end;
-    border-style: clear; 
 }
 .accordion-header {
     display: flex;
