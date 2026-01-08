@@ -62,6 +62,14 @@ h2 {
     border-style: clear;
     margin-top: 1rem;
 }
+hr {
+    color: hsl(0, 0%, 91%);
+    border-style: solid;
+}
+button:hover {
+    border: solid;
+    border-color: hsl(0, 0%, 0%);
+}
 .plus-sign {
     background-image: url("assets/images/icon-plus.svg");
     background-size: fit;
@@ -83,9 +91,17 @@ h2 {
 .top-header {
     margin-top: 0rem;
 }
-p {
+.drop-closed {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-style: solid;
+    opacity: 0;
+    display: none;
+}
+.drop-open {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-style: solid;
 }
 footer {
     position: absolute;

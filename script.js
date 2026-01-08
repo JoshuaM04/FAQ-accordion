@@ -17,9 +17,11 @@ elSymbol.addEventListener('click', updateSymbol, false);
 function updateSymbol(numVal) {
     if (buttons[numVal].className == 'plus-sign') {
         buttons[numVal].className = 'minus-sign';
+        buttons[numVal].nextElementSibling.className = 'drop-open';
     }
     else {
         buttons[numVal].className = 'plus-sign';
+        buttons[numVal].nextElementSibling.className = 'drop-closed';
     }
 }
 
