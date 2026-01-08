@@ -25,4 +25,3 @@ buttons[3].addEventListener('click', function() {
 }, false);
 
 console.log(buttons);
-

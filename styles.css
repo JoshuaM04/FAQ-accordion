@@ -80,6 +80,10 @@ hr {
     height: 1.5rem;
     min-width: 1.5rem;
 }
+.plus-sign:hover {
+    border-style: solid;
+    border-color: green;
+}
 .minus-sign {
     background-image: url("assets/images/icon-minus.svg");
     background-size: fit;
@@ -88,6 +92,10 @@ hr {
     border: none;
     height: 1.5rem;
     min-width: 1.5rem;
+}
+.minus-sign:hover {
+    border-style: solid;
+    border-color: red;
 }
 .top-header {
     margin-top: 0rem;
