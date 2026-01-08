@@ -24,8 +24,6 @@ function updateSymbol(numVal) {
 }
 
 var buttons = document.querySelectorAll('button.plus-sign');
-var i;
-
 
 buttons[0].addEventListener('click', function() {
     updateSymbol(0);

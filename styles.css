@@ -64,14 +64,16 @@ h2 {
 }
 .plus-sign {
     background-image: url("assets/images/icon-plus.svg");
-    background-size: cover;
+    background-size: fit;
+    background-position: center center;
     border-radius: 50%;
     height: 1.5rem;
     width: 1.5rem;
 }
 .minus-sign {
     background-image: url("assets/images/icon-minus.svg");
-    background-size: cover;
+    background-size: fit;
+    background-position: center center;
     border-radius: 50%;
     height: 1.5rem;
     width: 1.5rem;
