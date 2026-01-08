@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: "Work Sans";
     position: relative;
     height: 100vh;
     display: flex;
@@ -44,8 +45,11 @@ body {
     flex-direction: column;
     justify-content: left;
 }
+h1 {
+    font-size: 3.0rem;
+}
 h2 {
-    font-size: 1.0rem;
+    font-size: .9rem;
 }
 .accordion-title {
     display: inline-flex;
@@ -65,6 +69,7 @@ h2 {
 hr {
     color: hsl(0, 0%, 91%);
     border-style: solid;
+    margin-top: 1.5rem;
 }
 button:hover {
     border: solid;
@@ -78,9 +83,6 @@ button:hover {
     border: none;
     height: 1.5rem;
     min-width: 1.5rem;
-    /*position: relative;
-    bottom: 38px;
-    left: 180px;*/
 }
 .minus-sign {
     background-image: url("assets/images/icon-minus.svg");
@@ -89,25 +91,21 @@ button:hover {
     border-radius: 50%;
     border: none;
     height: 1.5rem;
-    width: 1.5rem;
-    /*position: relative;
-    bottom: 38px;
-    left: 180px; */
+    min-width: 1.5rem;
 }
 .top-header {
     margin-top: 0rem;
 }
 .drop-closed {
     margin-top: 1rem;
-    margin-bottom: 1rem;
     border-style: solid;
     opacity: 0;
     display: none;
 }
 .drop-open {
+    font-size: .9rem;
     color: rgb(158, 158, 158);
     margin-top: 1rem;
-    margin-bottom: 1rem;
     border-style: clear;
     position: relative;
 }
