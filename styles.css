@@ -71,10 +71,6 @@ hr {
     border-style: solid;
     margin-top: 1.5rem;
 }
-button:hover {
-    border: solid;
-    border-color: hsl(0, 0%, 0%);
-}
 .plus-sign {
     background-image: url("assets/images/icon-plus.svg");
     background-size: fit;
