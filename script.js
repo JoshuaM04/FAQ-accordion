@@ -1,19 +1,3 @@
-/* 
-function updateSymbol() {
-    if (elSymbol.id == 'plus-sign') {
-        elSymbol.src = "assets/images/icon-minus.svg";
-        elSymbol.id = 'minus-sign';
-    }
-    else {
-        elSymbol.src = "assets/images/icon-plus.svg";
-        elSymbol.id = 'plus-sign';
-    }
-}
-
-var elSymbol = document.querySelector('img.drop-down');
-elSymbol.addEventListener('click', updateSymbol, false); 
-*/
-
 function updateSymbol(numVal) {
     if (buttons[numVal].className == 'plus-sign') {
         buttons[numVal].className = 'minus-sign';
