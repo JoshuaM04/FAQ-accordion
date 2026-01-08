@@ -48,7 +48,7 @@ h2 {
     font-size: 1.0rem;
 }
 .accordion-title {
-    display: flex;
+    display: inline-flex;
     justify-content: left;
     align-items: center;
     border-style: clear;
@@ -77,7 +77,10 @@ button:hover {
     border-radius: 50%;
     border: none;
     height: 1.5rem;
-    width: 1.5rem;
+    min-width: 1.5rem;
+    /*position: relative;
+    bottom: 38px;
+    left: 180px;*/
 }
 .minus-sign {
     background-image: url("assets/images/icon-minus.svg");
@@ -87,6 +90,9 @@ button:hover {
     border: none;
     height: 1.5rem;
     width: 1.5rem;
+    /*position: relative;
+    bottom: 38px;
+    left: 180px; */
 }
 .top-header {
     margin-top: 0rem;
@@ -99,9 +105,11 @@ button:hover {
     display: none;
 }
 .drop-open {
+    color: rgb(158, 158, 158);
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-style: solid;
+    border-style: clear;
+    position: relative;
 }
 footer {
     position: absolute;
