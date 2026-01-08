@@ -34,7 +34,7 @@ body {
 .container {
     background-color: hsl(0, 100%, 100%);
     height: fit-content;
-    width: 25vw;
+    width: 20vw;
     padding: 20px;
     border-style: clear;
     border-radius: 10px;
