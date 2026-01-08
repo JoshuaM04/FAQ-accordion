@@ -105,6 +105,10 @@ hr {
     border-style: clear;
     position: relative;
 }
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
 footer {
     position: absolute;
     bottom: 0;
@@ -112,20 +116,24 @@ footer {
 
 @media (max-width: 450px) and (max-height: 760px) {
     .container {
-        width: 50vw;
+        width: 80vw;
+        height: fit-content;
+        justify-content: space-between;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     .accordion-title {
-        margin-bottom: .2rem;
+        margin-bottom: 0rem;
     }
     h1 {
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
     h2 {
-        font-size: .5rem;
+        font-size: .8rem;
         margin-right: 1rem;
     }
     .drop-open {
-        font-size: .4rem;
+        font-size: .8rem;
     }
     .background-top {
         height: 50vh;
@@ -136,6 +144,6 @@ footer {
         height: 50vh;
     }
     .attribution {
-        font-size: .5rem;
+        font-size: .8rem;
     }
 }
