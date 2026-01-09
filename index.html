@@ -25,16 +25,32 @@
       <h1>FAQs</h1>
     </header>
 
-      <div class="drop-down-container">
-        <section class="accordion-header" class="top-header">
-          <h2>What is Frontend Mentor, and how will it help me?</h2>
-          <button class="plus-sign"></button>
-        </section>
-        <p class="drop-closed">
-            Frontend Mentor offers realistic coding challenges to help developers improve their
-            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
-            all levels and ideal for portfolio building.
-        </p>
+      <div id="accordionGroup" class="accordion">
+          <h2>
+            <button type="button"
+                    aria-expanded="true"
+                    class="accordion-trigger"
+                    aria-controls="sect1"
+                    id="accordion1id">
+            <span class="accordion-title">
+              What is Frontend Mentor, and how will it help me?
+              <span class="accordion-icon"></span>
+            </span>
+            </button>
+          </h2>
+
+          <div id="sect1"
+               role="region"
+               aria-labelledby="accordion1id"
+               class="accordion-panel">
+            <span aria-hidden="true">
+              <p>
+                  Frontend Mentor offers realistic coding challenges to help developers improve their
+                  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+                  all levels and ideal for portfolio building.
+              </p>
+            </span>
+          </div>
       </div>
 
       <hr />
